@@ -1,6 +1,10 @@
 .flex {
     display: flex;
 }
+body {
+    width: 100%;
+    margin-left: 0%;
+}
 .logo img {
     align-items:center ;
 }
@@ -99,6 +103,10 @@ line-height: 151%;
     margin-left: 30px;
 }
 .subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 .triples {
@@ -106,17 +114,66 @@ line-height: 151%;
     justify-content:space-evenly;
     margin-top: 50px;
 }
-.unoydos {
-    display: flex;
-    gap: 300px;
-}
+
 
 .tresbox {
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-top: 30px;
 
 }
 .treco {
     
+}
+.uno {
+    margin-bottom: 20px;
+}
+.subtitle h4 {
+    margin-left: 10px;
+}
+
+.lomejordelmes {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 71px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.juega {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+    ;
+}
+.juega p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.juega h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.jugadores {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+.gris {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.solitarioboton {
+    justify-content: center;
+    margin-bottom: 200px;
 }
