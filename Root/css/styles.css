@@ -90,5 +90,33 @@ margin-left: 100px;
 line-height: 151%;
 
 }
+.subtitle h4{
+    flex-direction: row;
+    display: inline;
+}
 
+.solo {
+    margin-left: 30px;
+}
+.subtitle {
 
+}
+.triples {
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 50px;
+}
+.unoydos {
+    display: flex;
+    gap: 300px;
+}
+
+.tresbox {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.treco {
+    
+}
